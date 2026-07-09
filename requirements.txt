@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+httpx
+langchain
+langchain-community
+langgraph
+streamlit
+langchain-ollama
