@@ -25,7 +25,7 @@ geo-campaign-agent/
 │   └── agent.py             # LangGraph & tool boundaries
 └── frontend/                # Interactive User Interface
     └── app.py               # Streamlit web app
-
+```
 ## Setup Instructions
 
 1. Create and Activate a Virtual Environment
@@ -35,8 +35,10 @@ It is highly recommended to use a virtual environment to manage your dependencie
     python -m venv venv
     venv\Scripts\activate
     ```
+    
 1. **Install Ollama**
    Download from [ollama.com](https://ollama.com/) and pull the Llama 3 model:
+
    ```bash
    ollama run llama3
    ```
